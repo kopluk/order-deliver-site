@@ -1,0 +1,119 @@
+.abcde {
+    padding: 32px 0 92px 0;
+
+    .btn-string {
+        .btn-other {
+            margin: 0 0 0 600/1420*100%;
+        }
+    }
+
+    .abcde-bg {
+        float: right;
+        margin: -35px -49px 0 0;
+    }
+
+    .abcde-title {
+        position: relative;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 68px;
+        color: #1A2631;
+        text-align: center;
+        margin: 0 0 75px 0;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 113px;
+            height: 31px;
+            background-image: url(../img/process-bg-word.png);
+            left: 342px;
+            top: -1px;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            width: 1339px;
+            height: 954px;
+            background-color: #f4f4f4;
+            z-index: -1;
+            left: 321px;
+            top: -32px;
+        }
+
+        .abcde-title-blue-text {
+            color: #4D65FF;
+        }
+    }
+
+    .abcde-possibilities {
+        width: 679px;
+        margin: 0 0 61px 0;
+
+        .abcde-possibility {
+            display: inline-block;
+
+            .possibility-title {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;
+                color: #000000;
+                margin: 0 0 16px 0;
+            }
+
+            .possibility-text {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                color: #04195B;
+            }
+
+            &.first-possibility,
+            &.second-possibility {
+                margin: 0 0 48px 0;
+            }
+
+            &.first-possibility {
+                width: 256px;
+                height: 250px;
+                margin: 0 130px 48px 0;
+            }
+
+            &.second-possibility {
+                width: 289px;
+                height: 250px;
+            }
+
+
+            &.first-possibility .possibility-logo,
+            &.second-possibility .possibility-logo {
+                margin: 0 0 22px 0;
+            }
+
+            &.third-possibility .possibility-logo,
+            &.fourth-possibility .possibility-logo {
+                margin: 0 0 40px 0;
+            }
+
+            &.third-possibility {
+                width: 273px;
+                height: 268px;
+
+                margin: 0 113px 0 0;
+            }
+
+            &.fourth-possibility {
+                width: 289px;
+                height: 268px;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,116 @@
+.process {
+    padding: 85px 0 119px 0;
+
+    .btn-string {
+        text-align: center;
+    }
+
+    .process-title {
+        position: relative;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 68px;
+        color: #1A2631;
+        width: 294px;
+        margin: 0 0 14px 583/1420*100%;
+
+        &::after {
+            content: '';
+            position: absolute;
+            background-image: url(../img/process-bg-word.png);
+            background-repeat: no-repeat;
+            width: 113px;
+            height: 31px;
+            left: -24px;
+            top: -1px;
+            z-index: -1;
+            opacity: 0.8;
+        }
+    }
+
+    .process-text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #000000;
+        margin: 0 0 42px 0;
+    }
+
+    .process-steps {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 0 48px 0;
+
+
+        .process-step {
+            width: 345px;
+            height: 345px;
+            border-radius: 10px;
+            padding: 97px 32px 0 36px;
+
+            &.first-step {
+                position: relative;
+                background-color: rgba(36, 166, 149, 0.1);
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 56px;
+                    height: 98px;
+                    background-image: url(../img/process-items/1.png);
+                    right: 18px;
+                    top: -14px;
+                }
+            }
+
+            &.second-step {
+                position: relative;
+                background-color: rgba(66, 103, 178, 0.1);
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 82px;
+                    height: 102px;
+                    background-image: url(../img/process-items/2.png);
+                    right: 18px;
+                    top: -14px;
+                }
+            }
+
+            &.third-step {
+                position: relative;
+                background-color: rgba(249, 77, 83, 0.1);
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 82px;
+                    height: 102px;
+                    background-image: url(../img/process-items/3.png);
+                    right: 18px;
+                    top: -14px;
+                }
+            }
+
+            .step-logo {
+                margin: 0 0 32px 0;
+            }
+
+            .step-text {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: #000000;
+            }
+        }
+    }
+}

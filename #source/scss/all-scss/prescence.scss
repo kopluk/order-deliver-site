@@ -1,0 +1,45 @@
+.prescence {
+    position: relative;
+    padding: 59px 0 185px 0;
+    background-color: #4267B2;
+    z-index: -10;
+
+    .prescense-bg {
+        text-align: center;
+    }
+
+    .prescence-title {
+        position: relative;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 48px;
+        color: #FFFFFF;
+        margin: 0 0 47px 0;
+        text-align: center;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 113px;
+            height: 31px;
+            background-color: rgba(39, 54, 92, 0.9);
+            left: 300px;
+            top: -1px;
+            z-index: -1;
+        }
+    }
+
+    .prescence-text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 1421px;
+        margin: 0 auto 47px auto;
+    }
+}

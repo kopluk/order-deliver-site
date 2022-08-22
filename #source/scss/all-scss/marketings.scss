@@ -1,0 +1,49 @@
+.marketing_header {
+    background-color: #4267B2;
+    padding: 48px 0 47px 0;
+
+    .marketing-text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 972px;
+        margin: 0 auto;
+    }
+}
+
+.marketing_footer {
+    padding: 55px 0 55px 0;
+    background-color: #2B478B;
+    text-align: right;
+
+    .container {
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            background-image: url(../img/marketing-footer.gif);
+            background-repeat: no-repeat;
+            background-size: 252px 252px;
+            width: 252px;
+            height: 252px;
+            left: 0;
+            top: -50px;
+        }
+    }
+
+    .marketing_footer-text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: right;
+        color: #FFFFFF;
+        margin: 0 0 33px 0;
+    }
+}

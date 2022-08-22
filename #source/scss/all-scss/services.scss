@@ -1,0 +1,125 @@
+.services {
+    position: relative;
+    padding: 88px 0 192px 0;
+
+    // line on the right
+    &::before {
+        content: '';
+        position: absolute;
+        background-image: url(../img/Vector\ 2.png);
+        width: 176px;
+        height: 429px;
+        right: 0;
+        top: 939px;
+        z-index: -1;
+    }
+
+    .container {
+        position: relative;
+
+        &::after {
+            content: '';
+            clear: both;
+            display: table;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-color: #EFF4F7;
+            width: 1920px;
+            height: 2428px;
+            left: -542px;
+            top: 76px;
+            z-index: -1;
+        }
+    }
+
+    .services-title {
+        position: relative;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 48px;
+        color: #1A2631;
+        padding: 0 0 0 596/1420*100%;
+        margin: 0 0 88px 0;
+
+        &::after {
+            content: '';
+            position: absolute;
+            background-color: rgba(255, 194, 194, 0.2);
+            width: 113px;
+            height: 31px;
+            left: 545px;
+            top: -1px;
+            z-index: -1;
+        }
+
+    }
+
+    .service-block {
+        position: relative;
+        width: 1302px;
+        height: 450px;
+        margin: 0 0 100px 0;
+
+        display: flex;
+        align-items: center;
+
+        &:last-child {
+            margin: 0;
+        }
+
+        &.left-block {
+            .left-block-img {
+                float: left;
+            }
+        }
+
+        &.right-block {
+            .right-block-img {
+                float: right;
+            }
+        }
+
+        .blocks-title {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 48px;
+            color: #1A2631;
+            margin: 0 0 35px 0;
+        }
+
+        .blocks-text {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #151515;
+        }
+    }
+
+    .left-block {
+        float: left;
+
+        .block-text-align {
+            text-align: left;
+            margin: 0 0 0 50px;
+            padding: 80px 0 0 0;
+        }
+    }
+
+    .right-block {
+        float: right;
+
+        .block-text-align {
+            text-align: right;
+            margin: -45px 50px 0 0;
+        }
+    }
+}
